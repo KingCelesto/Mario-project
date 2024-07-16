@@ -26,6 +26,20 @@ section a{
     text-decoration: none;
     /* justify-content: space-between; */
 }
+span{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+}
+img{
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+}
 footer{
     background-color: grey;
     padding: 3px;
