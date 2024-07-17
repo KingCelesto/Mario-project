@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="nav.css">
+    <style>
+        h2{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: block;
+            text-align: center;
+        }
+        main div h2{
+            color: red;
+        }
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: none;
+            font-size: 21px;
+            font-weight: 500;
+            stop-opacity: 40px;
+        }
+        .sizing{
+            width: 20%;
+            height: 40%;
+            border: none;
+            align-self: center;
+        }
+        .indi{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgb(179, 179, 179);
+            border-radius: 20px;
+            padding: 25px;
+            width: 100%;
+            margin-top: 80px;
+        }
+        main{
+            max-width: 1000px;
+            align-items: center;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,10 +58,36 @@
         <img src="mario_friends.jpg" alt="group_photo">
     </div>
     <span>Meet Mario's Friends</span>
-    <p>Here are some of Mario's most notable friends and their basic characteristics:</p>
-    
+    <h2>Here are some of Mario's most notable friends and their basic characteristics:</h2>
+    <main>
+        <div class="indi">
+            <img class="sizing" src="luigi.webp" alt="luigi">
+            <h2>Luigi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit possimus repellendus mollitia tempora illo pariatur, minus facilis. A repellendus ipsum repudiandae delectus, nobis tempore neque suscipit quod fugit, numquam illum eum cum, blanditiis hic autem.</p>
+        </div>
+        <div class="indi">
+            <img class="sizing" src="princess_peach.webp" alt="the princess">
+            <h2>Princess Peach</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi velit exercitationem minima vel amet praesentium! Molestias autem magnam eaque explicabo provident excepturi quas nesciunt dicta neque! Fugiat laudantium eveniet magnam dignissimos nobis repellat minus!</p>
+        </div>
+        <div class="indi">
+            <img class="sizing" src="yoshi.webp" alt="yoshi">
+            <h2>Yoshi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores, est non explicabo iure incidunt, pariatur dolor qui voluptatem eum exercitationem, neque fugit rem molestias corporis beatae! Cum similique, sunt sequi sit aut magnam vel!</p>
+        </div>
+        <div class="indi">
+            <img class="sizing" src="toad.webp" alt="">
+            <h2>Toad</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quasi sapiente minima cum rem voluptate impedit expedita, alias provident ad natus quod dicta qui aperiam odit maiores. Error assumenda eius non delectus temporibus dolor beatae!/<p>
+        </div>
+        <div class="indi">
+            <img class="sizing" src="bowser.webp" alt="bowser">
+            <h2>Bowser</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto minus nesciunt, error expedita facilis itaque quam voluptatem saepe eaque rerum mollitia deleniti doloremque similique cupiditate, eius, animi molestiae hic natus cum a nostrum repellat. Assumenda.</p>
+        </div>
+    </main>
     <footer>
-        <p>@2024 David Charles</p>
+        <p>&copy;2024 David Charles</p>
     </footer>
 </body>
 </html>
