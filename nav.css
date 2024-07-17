@@ -1,15 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: white;
+    font-family: cursive !important;
 }
 header{
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 0px;
 }
 h1{
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
+    display: inline-block;
+    padding: 10px;
     /* border-width: 40px;
     border-color: black; */
     text-align: center;
@@ -45,6 +57,7 @@ footer{
     padding: 3px;
 }
 footer p{
+    color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     font-size: 20px;
