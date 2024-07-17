@@ -10,18 +10,20 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: center;
             color: red;
+            font-size: 44px;
+            margin: 40px;
         }
         main{
-            max-width: 900px;
-            display: contents;
+            /* max-width: 700px; */
+            display: flexbox;
             justify-content: space-around;
         }
-        /* div{ */
-            /* margin-left: 30px; */
-        /* } */
-        img{
-            max-width: fit-content;
-            max-height: fit-content;
+        .gallery_images{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
         }
     </style>
 </head>
@@ -37,11 +39,11 @@
     </section>
     <Main>
         <h2>Gallery</h2>
-        <div>
-            <img src="thumb-1.png" alt="">
-            <img src="thumb-2.png" alt="">
-            <img src="thumb-3.jpg" alt="">
-            <img src="thumb-4.jpg" alt="">
+        <div class="gallery_images">
+            <img src="thumb-1.png" alt="" width="450px" height="250px">
+            <img src="thumb-2.png" alt="" width="450px" height="250px">
+            <img src="thumb-3.jpg" alt="" width="450px" height="250px">
+            <img src="thumb-4.jpg" alt="" width="450px" height="250px">
         </div>
     </Main>
     <footer>
