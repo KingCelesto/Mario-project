@@ -13,10 +13,23 @@
             font-size: 44px;
             margin: 40px;
         }
+        h3{
+            background-color: red;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            top: 85%;
+            left: 35%;
+            gap: 80px;
+        }
         main{
             /* max-width: 700px; */
             display: flexbox;
             justify-content: space-around;
+        }
+        div{
+            display: inline-block;
+            position: relative;
         }
         .gallery_images{
             display: flex;
@@ -40,10 +53,23 @@
     <Main>
         <h2>Gallery</h2>
         <div class="gallery_images">
-            <img src="thumb-1.png" alt="" width="450px" height="250px">
-            <img src="thumb-2.png" alt="" width="450px" height="250px">
-            <img src="thumb-3.jpg" alt="" width="450px" height="250px">
-            <img src="thumb-4.jpg" alt="" width="450px" height="250px">
+            <div>
+                <img src="thumb-1.png" alt="" width="450px" height="250px">
+                <h3 >The Mountains</h3>
+            </div>
+            <div>
+                <img src="thumb-2.png" alt="" width="450px" height="250px">
+                <h3>Under the sea</h3>
+            </div>
+            <div>
+                <img src="thumb-3.jpg" alt="" width="450px" height="250px">
+                <h3>A work of art</h3>
+            </div>
+            <div>
+                <img src="thumb-4.jpg" alt="" width="450px" height="250px">
+                <h3 style="left: 40%;">Rebels</h3>
+            </div>
+            
         </div>
     </Main>
     <footer>

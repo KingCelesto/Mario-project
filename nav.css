@@ -11,6 +11,7 @@ body{
 header{
     background-color: red;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -19,7 +20,7 @@ header{
 h1{
     border-style: solid;
     border-radius: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-block;
     padding: 10px;
     /* border-width: 40px;
@@ -31,6 +32,7 @@ section{
     background-color: grey;
     display: flex;
     justify-content: space-around;
+    position: sticky;
 }
 section a{
     padding: 10px;
@@ -39,11 +41,12 @@ section a{
     /* justify-content: space-between; */
 }
 span{
-    color: red;
+    color: white;
+    background-color: red;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-weight: 900;
-    display: block;
+    display: inline-flex;
     text-align: center;
 }
 img{
